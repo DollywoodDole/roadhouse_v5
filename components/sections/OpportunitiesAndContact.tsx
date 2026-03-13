@@ -150,7 +150,7 @@ export default function OpportunitiesAndContact() {
                 { icon: '✉', label: 'Direct / Founder', value: 'daltonellscheid@gmail.com', href: 'mailto:daltonellscheid@gmail.com' },
                 { icon: '𝕏', label: 'X / Twitter DMs', value: '@dollywooddole', href: 'https://x.com/dollywooddole' },
                 { icon: '▶', label: 'Kick Stream', value: 'kick.com/dollywooddole', href: 'https://kick.com/dollywooddole' },
-                { icon: '💬', label: 'Discord', value: 'Via membership or DM on X', href: 'https://discord.gg/YOUR_INVITE' },
+                { icon: '💬', label: 'Discord', value: 'Via membership or DM on X', href: 'https://discord.gg/wwhhKcnQJ3' },
               ].map(ch => (
                 <a
                   key={ch.label}

@@ -114,7 +114,7 @@ export default function Membership() {
           <div className="text-[11px] text-rh-muted">Join the private Discord server — active community, guild channels, and direct access to the team.</div>
         </div>
         <a
-          href="https://discord.gg/YOUR_INVITE"
+          href="https://discord.gg/wwhhKcnQJ3"
           target="_blank"
           rel="noopener noreferrer"
           className="px-4 py-2 text-[10px] tracking-widest uppercase border border-[#5865F2]/40 text-[#7289DA] hover:bg-[#5865F2]/10 rounded transition-colors whitespace-nowrap"

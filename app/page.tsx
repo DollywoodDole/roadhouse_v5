@@ -53,7 +53,7 @@ export default function Home() {
                   { label: 'X / Twitter', href: 'https://x.com/dollywooddole' },
                   { label: 'TikTok (Brand)', href: 'https://www.tiktok.com/@roadhousesyndicate' },
                   { label: 'TikTok (Personal)', href: 'https://www.tiktok.com/@dollywooddole' },
-                  { label: 'Discord', href: 'https://discord.gg/YOUR_INVITE' },
+                  { label: 'Discord', href: 'https://discord.gg/wwhhKcnQJ3' },
                 ].map(l => (
                   <li key={l.label}>
                     <a href={l.href} target="_blank" rel="noopener noreferrer"

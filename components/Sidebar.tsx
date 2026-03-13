@@ -25,7 +25,7 @@ const SOCIAL_LINKS = [
   { href: 'https://kick.com/dollywooddole',                  icon: '⬡',  label: 'Kick Stream' },
   { href: 'https://www.tiktok.com/@roadhousesyndicate',      icon: '♪',  label: '@roadhousesyndicate' },
   { href: 'https://www.tiktok.com/@dollywooddole',           icon: '♪',  label: '@dollywooddole' },
-  { href: 'https://discord.gg/YOUR_INVITE',                  icon: '💬', label: 'Discord' },
+  { href: 'https://discord.gg/wwhhKcnQJ3',                  icon: '💬', label: 'Discord' },
 ]
 
 export default function Sidebar() {
