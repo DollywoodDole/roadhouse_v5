@@ -11,19 +11,21 @@ export default function Hero() {
       id="home"
       className="relative min-h-screen flex flex-col justify-center px-8 lg:px-16 py-24 overflow-hidden"
     >
-      {/* Animated gradient background */}
+      {/* Video background with image fallback */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-rh-black" />
-        <div className="absolute rounded-full blur-[120px] opacity-20" style={{ width:'600px', height:'600px', background:'radial-gradient(circle, #C9922A 0%, transparent 70%)', top:'10%', left:'30%', animation:'drift1 18s ease-in-out infinite alternate' }} />
-        <div className="absolute rounded-full blur-[160px] opacity-10" style={{ width:'500px', height:'500px', background:'radial-gradient(circle, #F0C060 0%, transparent 70%)', top:'50%', right:'10%', animation:'drift2 22s ease-in-out infinite alternate' }} />
-        <div className="absolute rounded-full blur-[100px] opacity-10" style={{ width:'400px', height:'400px', background:'radial-gradient(circle, #8B6318 0%, transparent 70%)', bottom:'10%', left:'10%', animation:'drift3 26s ease-in-out infinite alternate' }} />
-        <div className="absolute inset-0" style={{ background:'radial-gradient(ellipse at center, transparent 40%, rgba(10,8,6,0.8) 100%)' }} />
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          poster="/Hero-backround.jpg"
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/Clip_TikTok_0.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0" style={{ background: 'rgba(10,8,6,0.65)' }} />
+        <div className="absolute inset-0" style={{ background: 'radial-gradient(ellipse at center, transparent 40%, rgba(10,8,6,0.7) 100%)' }} />
       </div>
-      <style>{`
-        @keyframes drift1 { 0% { transform: translate(0,0) scale(1); } 100% { transform: translate(-80px,60px) scale(1.15); } }
-        @keyframes drift2 { 0% { transform: translate(0,0) scale(1.1); } 100% { transform: translate(60px,-80px) scale(0.9); } }
-        @keyframes drift3 { 0% { transform: translate(0,0) scale(0.95); } 100% { transform: translate(80px,40px) scale(1.1); } }
-      `}</style>
 
       {/* Est. tag */}
       <div
@@ -43,7 +45,7 @@ export default function Hero() {
         <img
           src="/rh-logo.png"
           alt="RoadHouse"
-          className="w-auto max-w-[340px] md:max-w-[500px] lg:max-w-[600px] drop-shadow-[0_0_40px_rgba(201,146,42,0.3)]"
+          className="w-auto max-w-[340px] md:max-w-[500px] lg:max-w-[600px] drop-shadow-[0_0_60px_rgba(201,146,42,0.5)]"
         />
       </div>
 
